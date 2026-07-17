@@ -1,0 +1,117 @@
+body {
+    font-family: "Helvetica", Arial, sans-serif;
+    font-size: large;
+    color: #333;
+    background-color: #f8f9f9;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5em;
+}
+
+.header-content h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+}
+
+.instructor {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    img {
+        width: 110px; /* Adjust the size as needed */
+        height: 110px; /* Adjust the size as needed */
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+.navbar-bg {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the navbar stays on top of other content */
+    position: sticky;
+    background-color: #051952;
+    color: #fff;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+
+.side-by-side {
+    display: flex;
+    /* align-items: center; Adjust vertical alignment as needed */
+    margin-bottom: 20px; /* Space between each block */
+    justify-content: flex-start; 
+}
+
+.heading {
+    margin-right: 30px; /* Space between the heading and the text */
+    min-width: 170px; /* Adjust this value based on your content */
+    font-weight: bold;
+}
+
+.text {
+    flex: 1; /* Allows the text to take up the remaining space */
+    text-align: left
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px; /* Match the image width */
+    height: 110px; /* Match the image height */
+}
+
+.mr-3 {
+    margin-right: 1rem; /* Adjust the spacing */
+}
+
+section h2 {
+    border-bottom: 2px solid black; /* Adjust the thickness (2px) as needed */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.center{
+    text-align: center;
+
+}
+
+h2 {
+    color: #0b4fa1;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5em;
+}
+.person img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+.table th {
+    background-color: #2c6bc9;
+    color: white;
+}
+
+th:nth-child(4), td:nth-child(4) {
+    width: 550px; /* Adjust the width as needed */
+    word-wrap: break-word; /* Ensure long text wraps within the column */
+}
+
+.markdown-example {
+    background-color: #f4f4f4;
+    padding: 1em;
+    border-radius: 5px;
+    overflow: auto;
+}
